@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B44E43F029F2A12600C467CF /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E43EF29F2A12600C467CF /* AlertModel.swift */; };
+		B47E2C4529EE264C00787AFB /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E2C4429EE264C00787AFB /* PlacesVC.swift */; };
+		B4AE34A329EF92B30076899A /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE34A229EF92B30076899A /* PlaceModel.swift */; };
 		B4CC6C4929EC278F00C22BED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC6C4829EC278F00C22BED /* AppDelegate.swift */; };
 		B4CC6C4B29EC278F00C22BED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC6C4A29EC278F00C22BED /* SceneDelegate.swift */; };
-		B4CC6C4D29EC278F00C22BED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC6C4C29EC278F00C22BED /* ViewController.swift */; };
+		B4CC6C4D29EC278F00C22BED /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC6C4C29EC278F00C22BED /* SignUpVC.swift */; };
 		B4CC6C5029EC278F00C22BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CC6C4E29EC278F00C22BED /* Main.storyboard */; };
 		B4CC6C5229EC279100C22BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CC6C5129EC279100C22BED /* Assets.xcassets */; };
 		B4CC6C5529EC279100C22BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CC6C5329EC279100C22BED /* LaunchScreen.storyboard */; };
+		B4DA8CBC29EEB61000FA89A0 /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA8CBB29EEB61000FA89A0 /* AddPlaceVC.swift */; };
+		B4DA8CBE29EEB91F00FA89A0 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA8CBD29EEB91F00FA89A0 /* MapVC.swift */; };
+		B4DA8CC229EEBCF000FA89A0 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA8CC129EEBCF000FA89A0 /* DetailsVC.swift */; };
 		CEFFB77171484B0D1C1CD6C4 /* Pods_FoursquareClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A70C2F76BE71FEFABBE9AC /* Pods_FoursquareClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,14 +26,20 @@
 		06BCC033917875C4266A637F /* Pods-FoursquareClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.debug.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.debug.xcconfig"; sourceTree = "<group>"; };
 		30A70C2F76BE71FEFABBE9AC /* Pods_FoursquareClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoursquareClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C4B1607B3634E8E47E74D6 /* Pods-FoursquareClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.release.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.release.xcconfig"; sourceTree = "<group>"; };
+		B44E43EF29F2A12600C467CF /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		B47E2C4429EE264C00787AFB /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
+		B4AE34A229EF92B30076899A /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		B4CC6C4529EC278F00C22BED /* FoursquareClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CC6C4829EC278F00C22BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4CC6C4A29EC278F00C22BED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B4CC6C4C29EC278F00C22BED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4CC6C4C29EC278F00C22BED /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		B4CC6C4F29EC278F00C22BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4CC6C5129EC279100C22BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4CC6C5429EC279100C22BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4CC6C5629EC279100C22BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DA8CBB29EEB61000FA89A0 /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		B4DA8CBD29EEB91F00FA89A0 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		B4DA8CC129EEBCF000FA89A0 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +60,6 @@
 				06BCC033917875C4266A637F /* Pods-FoursquareClone.debug.xcconfig */,
 				70C4B1607B3634E8E47E74D6 /* Pods-FoursquareClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,8 +93,14 @@
 			isa = PBXGroup;
 			children = (
 				B4CC6C4829EC278F00C22BED /* AppDelegate.swift */,
+				B4CC6C4C29EC278F00C22BED /* SignUpVC.swift */,
+				B47E2C4429EE264C00787AFB /* PlacesVC.swift */,
 				B4CC6C4A29EC278F00C22BED /* SceneDelegate.swift */,
-				B4CC6C4C29EC278F00C22BED /* ViewController.swift */,
+				B4DA8CBB29EEB61000FA89A0 /* AddPlaceVC.swift */,
+				B4DA8CBD29EEB91F00FA89A0 /* MapVC.swift */,
+				B4DA8CC129EEBCF000FA89A0 /* DetailsVC.swift */,
+				B4AE34A229EF92B30076899A /* PlaceModel.swift */,
+				B44E43EF29F2A12600C467CF /* AlertModel.swift */,
 				B4CC6C4E29EC278F00C22BED /* Main.storyboard */,
 				B4CC6C5129EC279100C22BED /* Assets.xcassets */,
 				B4CC6C5329EC279100C22BED /* LaunchScreen.storyboard */,
@@ -207,8 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4CC6C4D29EC278F00C22BED /* ViewController.swift in Sources */,
+				B4CC6C4D29EC278F00C22BED /* SignUpVC.swift in Sources */,
+				B4AE34A329EF92B30076899A /* PlaceModel.swift in Sources */,
+				B4DA8CBE29EEB91F00FA89A0 /* MapVC.swift in Sources */,
 				B4CC6C4929EC278F00C22BED /* AppDelegate.swift in Sources */,
+				B47E2C4529EE264C00787AFB /* PlacesVC.swift in Sources */,
+				B4DA8CC229EEBCF000FA89A0 /* DetailsVC.swift in Sources */,
+				B4DA8CBC29EEB61000FA89A0 /* AddPlaceVC.swift in Sources */,
+				B44E43F029F2A12600C467CF /* AlertModel.swift in Sources */,
 				B4CC6C4B29EC278F00C22BED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
